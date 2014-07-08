@@ -1,0 +1,79 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sonangol</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/style.css?v=2" rel="stylesheet" type="text/css" />
+    <link href="css/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+    <!--    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-times.js"></script>-->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="js/script.js?v=2"></script>
+    <script type="text/javascript" src="js/coin-slider.min.js"></script>
+    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header_resize">
+                <div class="navcentre">
+                    <ul>
+                        <li>
+                            <a href="http://en.wikipedia.org/wiki/Angola">
+                                <img src="images/angolalogo.png" /></a>
+                        </li>
+                        <li>
+                            <a href="http://en.wikipedia.org/wiki/Sonangol_Group">
+                                <img src="images/sonagollogo.png" /></a>
+                        </li>
+                        <li>
+                            <span>Kwanza & Soyo Basin</span>
+                        </li>
+                        <li>
+                            <a href="http://www.insight-gis.com/insight/login.aspx">
+                                <img src="images/Login insight button.png" /></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="clr" style="border-top: 1px solid white; opacity:0.5;"></div>
+                <div class="menu_nav">
+                    <ul>
+                        <li class="<%=index_class%>"><a href="index.aspx">Home Page</a></li>
+                        <li><a href="#">About Kwanza Basin</></a></li>
+                        <li><a href="#"><span>About Soyo Basin</span></a></li>
+                        <li class="<%=blocks_class%>"><a href="blocks.aspx">Blocks Map</a></li>
+                        <li><a href="#">Kwanza Basin Brochure</a></li>
+                        <li class="<%=gallery_class%>"><a href="gallery.aspx">Gallery</a></li>
+                        <li style="padding-top:10px; padding-left:10px;"><img src="images/Video Icon.png" /></li>
+                        <li class="<%=video_class%>"><a href="video.aspx">Watch Video</a></li>
+                        <li class="<%=contact_class%>"><a href="contact.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+        <div class="footer">
+            <div class="clr" style="width: 100%; border-top: 1px solid white; opacity: 0.5;"></div>
+            <div class="footer_resize">
+                <a target="_blank" href="http://www.medva-group.com/">
+                    <img src="images/medva-logo.png" /></a>
+                <p class="rf">Copyright &copy; 2013 <a target="_blank" href='http://www.medva-group.com/'>MEDVA GROUP</a></p>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
