@@ -6,7 +6,7 @@
 <head runat="server">
     <title>Sonangol</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/style.css?v=2" rel="stylesheet" type="text/css" />
+    <link href="css/style.css?v=3.6" rel="stylesheet" type="text/css" />
     <link href="css/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" />
     <link href="css/justified-gallery.min.css" rel="stylesheet" type="text/css" />
 
@@ -40,11 +40,11 @@
                                 <img src="images/angolalogo.png" /></a>
                         </li>
                         <li>
-                            <a href="http://en.wikipedia.org/wiki/Sonangol_Group">
+                            <a href="http://en.wikipedia.org/wiki/Sonangol_Group" style="margin-left: 30px">
                                 <img src="images/sonagollogo.png" /></a>
                         </li>
                         <li>
-                            <span>Kwanza & Soyo Basin</span>
+                            <span>Kwanza & Congo Basin</span>
                         </li>
                         <li>
                             <a href="http://www.insight-gis.com/insight/login.aspx">
@@ -58,8 +58,8 @@
                     <ul>
                         <li class="<%=index_class%>"><a href="index.aspx">Home Page</a></li>
                         <li><a href="#">About Kwanza Basin</></a></li>
-                        <li><a href="#"><span>About Soyo Basin</span></a></li>
-                        <li class="<%=blocks_class%>"><a href="blocks.aspx">Blocks Map</a></li>
+                        <li><a href="#"><span>About Congo Basin</span></a></li>
+                        <li class="<%=blocks_class%>"><a href="blocks.aspx">Congo Blocks</a></li>
                         <li><a href="#">Kwanza Basin Brochure</a></li>
                         <li class="<%=gallery_class%>"><a href="gallery.aspx">Gallery</a></li>
                         <li style="padding-top:10px; padding-left:10px;"><img src="images/Video Icon.png" /></li>

@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="content">
-        <div class="content_resize" style="width:600px; height: 100px;">
+        <div class="content_resize" style="height: 100px;">
             <div class="mainbar">
                 <div class="article">
                     <h2><span>Thank You!</h2>

@@ -3,7 +3,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <div class="">
-        <div class="content_resize" style="width: 960px; height: 1073px;">
+        <div class="content_resize" style="height: 1073px;">
             <div class="mainbar" style="margin-bottom: 30px;">
 
                 <div id="mygallery" style="margin-top: 20px;">

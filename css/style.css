@@ -31,7 +31,7 @@ h2
 {
     margin: 8px 0;
     padding: 8px 0;
-    font-size: 27px;
+    font-size: 22px;
     font-weight: normal;
     color: #3f3f3f;
 }
@@ -105,9 +105,9 @@ a {
         }
 
          .navcentre ul li span{
-             margin-left: 32px;
-             margin-right: 225px;
-             font-size: 36pt;
+             margin-left: 36px;
+             margin-right: 200px;
+             font-size: 28pt;
              color: #ffcb05;
              font-weight: bolder;
          }
@@ -115,7 +115,7 @@ a {
         .navcentre ul > li > a
         {
             display: block;
-            margin-left: 15px;
+            margin-left: 0px;
             padding-top: 27px;
             padding-bottom: 27px;
         }
@@ -221,6 +221,7 @@ h1 small {
 	padding:0;
 }
 .content_resize {
+    width: 990px;
     border: 1px solid rgba(255, 255, 255, .5);
 	margin:0 auto;
 	padding: 0 20px 20px 20px;
@@ -263,9 +264,14 @@ h1 small {
 }
 .content .mainbar .article {
 	/*margin:0 0 32px;*/
-	padding-left: 38px;
+	padding-left: 12px;
     float:left;
 }
+
+.video-article {
+    padding-left: 40px !important;
+}
+
 .content .mainbar .article a {
 	color:#334e7d;
 }
@@ -549,12 +555,18 @@ ol li .send {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-    margin-top: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
 }
 
 .footer_resize {
+    width: 1020px;
 	margin:0 auto;
-	padding:10px 250px 10px 250px;
+	padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footer_resize p {
 	margin:24px 0;

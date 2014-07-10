@@ -32,4 +32,32 @@ $(function() {
 });	
 
 
-// ]]>
+//// Window load event used just in case window height is dependant upon images
+//$(window).bind("load", function () {
+
+//    var footerHeight = 0,
+//        footerTop = 0,
+//        $footer = $(".footer:eq(0)");
+
+//    positionFooter();
+
+//    function positionFooter() {
+
+//        footerHeight = $footer.height();
+//        footerTop = '-' + $(window).scrollTop() + "px";
+
+//        //if (($(document.body).height() + footerHeight) < $(window).height()) {
+//            $footer.css({
+//                position: "fixed",
+//                bottom: '0px'
+//            });
+
+//    }
+
+//    $(window)
+//            .scroll(positionFooter)
+//            .resize(positionFooter)
+
+//});
+
+//// ]]>
